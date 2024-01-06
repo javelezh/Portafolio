@@ -1,0 +1,250 @@
+head:
+  title: "Matt Dancho's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hola, Soy Jonatan Velez."
+  subtitle: "Zootecnista"
+  description: "¡Hola! Soy Jonatan, zootecnista apasionado por la analítica y la producción animal. ¡Bienvenidos a mi pagina donde exploraremos estos temas juntos!"
+  image:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  imageMobile:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Correo"
+    URL: "mailto:javelezhiguita85@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/javelezh/"
+
+    - icon: "github"
+      URL: "https://github.com/javelezh"
+
+    # - icon: "twitter"
+    #   URL: "https://twitter.com"
+
+    # - icon: "dribbble"
+    #   URL: "https://dribbble.com"
+
+    # - icon: "behance"
+    #   URL: "https://www.behance.net"
+
+    # - icon: "youtube"
+    #   URL: "https://www.youtube.com"
+
+    # - icon: "instagram"
+    #   URL: "https://www.instagram.com"
+
+    # - icon: "facebook"
+    #   URL: "https://www.facebook.com"
+
+    # - icon: "codepen"
+    #   URL: "#"
+    # 
+    # - icon: "yelp"
+    #   URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "Quién soy?"
+  content: 
+    <p class="lead">
+    <strong>Soy un apasionado por la analítica y la producción animal. Disfruto trabajando con el lenguaje de programación R, ya que es una herramienta  que me permite analizar grandes conjuntos de datos de manera eficiente y visualizar los resultados de manera clara y comprensible. Ademas, con el lenguaje de programacion R he adquirido una sólida experiencia en la depuración de datos, el análisis exploratorio y la creación de informes en Rmarkdown.
+    </p>
+    <p class="lead">
+    <strong>Siempre estoy en busca de nuevas oportunidades para aprender y crecer. Me esfuerzo por estar en constante aprendizaje, lo que me permite mantenerme al día con las últimas tendencias y avances en mi campo. Mi amor por la analítica, combinado con mi interés en la producción animal.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Sobre mí"
+    URL: "https://www.linkedin.com/in/javelezh"
+  image:
+    x: "img/who-am-i/foto.jpg"
+    _2x: "img/who-am-i/foto.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+  description: "Asistencia técnica en buenas practicas ganaderas en predios productores de leche, en los municipios de San Pedro de los Milagros, Belmira y Entrerrios."
+  button:
+    icon: "icon-profile-fill"
+    btnText: "colanta.com"
+    URL: "https://colanta.com/sabe-mas/"
+  # button2:
+  #   icon: "icon-profile-fill"
+  #   btnText: "Download My Resume"
+  #   URL: "#"
+
+  items:
+    - title: "Asitencia técnica en Buenas Practicas Ganaderas"
+      company: "Cooperativa Colanta"
+      duration: "Septiembre 2018 - Marzo 2019"
+
+    # - title: "Value Hunter"
+    #   company: "Premex"
+    #   duration: "Mar 2014 - Jan 2017"
+    # 
+    # - title: "Manager of Product Engineering"
+    #   company: "Bonney Forge"
+    #   duration: "Nov 2011 - Mar 2014"
+
+# education
+education:
+  enable: true
+  title: "Educación"
+  items:
+    - university: "Universidad Nacional de Colombia"
+      year: "2009-2019"
+      degree: "Zootecnia" 
+      
+
+    # - university: "University of Pittsburgh"
+    #   year: "2008-2010"
+    #   degree: "Master of Industrial Engineering"
+    #   
+    # - university: "Penn State University"
+    #   year: "2002-2006"
+    #   degree: "Bachelor of Mechanical Engineering"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Blog"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Análisis Exploratorio del Covid 19"
+      description: "Este análisis empleó R, un lenguaje de programación estadístico, para investigar y comprender a fondo los datos globales del COVID-19. Los datos examinados fueron adquiridos de la fuente confiable, Our World in Data. Ademas,  realizaron tablas y visualizaciones de los datos para identificar tendencias y patrones en la propagación del virus."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Rpubs"
+        URL: "https://rpubs.com/javelezh/611385"
+      image:
+        x: "img/works/app_sales_demand_forecast.jpg"
+        _2x: "img/works/covid_19.jpg"
+      is_even: true
+
+    - title: "Emisiones Gases En Corrales Lecheros"
+      description: "Este análisis representa una exploración de los datos asociados con las emisiones de gases en corrales lecheros. Dichos datos fueron adquiridos del Departamento de Agricultura de los Estados Unidos (USDA). El estudio incluye la elaboración de gráficos de dispersión y tendencias, diagramas de caja y bigotes (boxplot), y gráficos de correlación."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Rpubs"
+        URL: "https://rpubs.com/javelezh/716098"
+      image:
+        x: "img/works/app_cannondale_price_prediction.jpg"
+        _2x: "img/works/vacas_metano.jpg"
+      is_even: false
+
+    - title: "Gráficos librería echarts4r"
+      description: "En este estudio, se empleó la librería echarts4r en R para el análisis y la visualización de datos asociados a los registros de producción de leche de 3397 lactancias de vacas de raza Holstein. Los datos, que fueron obtenidos del Departamento de Agricultura de los Estados Unidos (USDA), se exploraron mediante una variedad de gráficos. Se generaron gráficos de dispersión, diagramas de caja y bigotes (boxplot), gráficos de barras, histogramas y gráficos de correlación."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Rpubs"
+        URL: "https://rpubs.com/javelezh/994993"
+      image:
+        x: "img/works/app_sales_demand_forecast.jpg"
+        _2x: "img/works/vacas_graficas.jpg"
+      is_even: true
+
+# testimonial
+# testimonial:
+#   enable: true
+#   title: "Testimonials"
+#   items:
+#   
+#     - name: "Justin Kurland, PhD"
+#       position: "Lead Data Scientist, Northwestern Mutual"
+#       content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
+#       image:
+#         x: "img/testimonials/justin.jpg"
+#         _2x: "img/testimonials/justin.jpg"
+#         
+#     - name: "Chris Selig"
+#       position: "Data Scientist"
+#       content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
+#       image:
+#         x: "img/testimonials/chris.jpg"
+#         _2x: "img/testimonials/chris.jpg"
+# 
+#     
+# 
+#     - name: "Mohana Krishna Chittoor"
+#       position: "Lead Data Scientist, Money View"
+#       content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
+#       image:
+#         x: "img/testimonials/mohana.jpg"
+#         _2x: "img/testimonials/mohana.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contacto"
+    
+  image:
+    x: "img/who-am-i/foto.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Correo"
+    btnAction: 'mailto:your-email@gmail.com'
+    
+  phone:
+    title: "Celular"
+    number: "--"
+  email:
+    title: "Correo Electrónico"
+    email: '<a href="mailto:javelezhiguita85@gmail.com">javelezhiguita85@gmail.com</a>'
+  address:
+    title: "Ubicación"
+    address: "Medellín - Colombia"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
